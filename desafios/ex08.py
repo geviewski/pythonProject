@@ -1,0 +1,2 @@
+metro= int(input('Digite um valor em metros para converter em centímetros e em milimetros: '))
+print('{} metros convertido para centímetros é {} e em milimetros é {}'.format(metro, metro * 100, metro * 1000))

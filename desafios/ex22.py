@@ -1,0 +1,8 @@
+nome = input('Digite seu nome completo: ').strip()
+maiusc = nome.upper()
+conta = len(nome) - nome.count(' ')
+quant = nome.find(' ')
+print(nome)
+print('Seu nome em maiusculo é: {}'.format(maiusc))
+print('são {} letras'.format(conta))
+print('são {} letras do primiero nome'.format(quant))

@@ -1,6 +1,6 @@
 from random import randrange
-aleatorio = randrange(0, 6)
-numero = int(input('Digite um numero entre 0 a 5, vejamos se é o mesmo que o do computador: '))
+aleatorio = randrange(0, 5)
+numero = int(input('Digite um numero entre 0 a 5,   vejamos se é o mesmo que o do computador: '))
 print('Analizando...')
 if numero == aleatorio:
     print('Parabens voce acertou!')

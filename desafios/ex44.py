@@ -1,5 +1,9 @@
 valor = float(input('Digite o valor do produto: '))
-forma_pag = str(input('Digite a forma de pagamento: 1(Avista), 2(avista cartão), 3(2x no carão), 4(3x ou mais): '))
+forma_pag = str(input('''Digite a forma de pagamento:
+ [ 1 ] Avista
+ [ 2 ] avista cartão
+ [ 3 ] 2x no carão
+ [ 4 ] 3x ou mais '''))
 if forma_pag in ('1'):
     disc = valor-(valor * 10/100)
     print('O valor sem desconto é: R${:.2f} e com desconto é: R$:{:.2f} e a forma de pagamento é avista.'.format(valor, disc))

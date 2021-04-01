@@ -9,6 +9,5 @@ while numsecreto != numero:
         print('Parabens voce acertou!')
         tentativas += 1
     else:
-        print('Errou!')
         tentativas += 1
 print('Voce jogou {} vezes'.format(tentativas))
